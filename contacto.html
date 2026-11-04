@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Los Andes Café</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Los Andes Café</h1>
+        <p>Bienvenidos a nuestra sección de contacto</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <p>
+                Comunícate con nosotros para conocer
+                nuestros productos y servicios.
+            </p>
+        </section>
+
+        <section>
+            <h2>Ubicación</h2>
+            <p>Modalidad:Tienda online (sin local fisico) </p>
+            <p>Ciudad de referencia: Cusco, Perú</p>
+        </section>
+
+        <section>
+            <h2>Redes sociales</h2>
+            <p>Síguenos en nuestras redes sociales:</p>
+
+            <ul>
+                <li>
+                    <a href="#"
+                       onclick="alert('Proximamente estaremos disponibles en Facebook.');return false;">
+                        Facebook
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#"
+                    onclick="alert('Proximamente estaremos disponibles en Instagram.'); return false;">
+                        Instagram
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#"
+                       onclick="alert('Proximamente estaremos disponibles en TikTok.');return false;">
+                        TikTok
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>WhatsApp</h2>
+            <p>
+                Escríbenos por WhatsApp para realizar
+                consultas sobre nuestros productos.
+            </p>
+
+            <p>
+                Proximamente estraremos disponibles en WhatsApp.
+            </p>
+
+            
+            <a href="#"
+            onclick="alert('Proximamente estaremos disponibles en whatsApp.');
+            return false;">
+                Contactar por WhatsApp
+            </a>
+        </section>
+
+        <section>
+            <h2>Formulario de contacto</h2>
+            <form onsubmit="alert('Gracias por contactarnos. Pronto respomderemos a tu mensaje.'); return false;">
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text"
+                           id="nombre"
+                           name="nombre"
+                           required>
+                </p>
+
+                <p>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email"
+                           id="correo"
+                           name="correo"
+                           required>
+                </p>
+
+                <p>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje"
+                              name="mensaje"
+                              rows="5"
+                              required></textarea>
+                </p>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Los Andes Café - Proyecto de Desarrollo Web</p>
+        <p>Sección Contacto - Milton Luna Flores</p>
+    </footer>
+
+</body>
+</html>
